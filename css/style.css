@@ -1,0 +1,238 @@
+@charset "utf-8";
+.pad-top-10 {
+	padding-top: 10px;
+}
+.pad-top-20 {
+	padding-top: 20px;
+}
+.pad-top-30 {
+	padding-top: 30px;
+}
+.row {
+	width: 1024px !important;
+	margin: 0 auto !important;
+}
+#container {
+	width: 1024px;
+	margin: 0 auto;
+}
+header {
+	height: 121px;
+	background-color: #009CFF;
+	width: 100%;
+}
+.menu #home {
+	margin-left: 40px;
+	margin-bottom: 32px;
+}
+.menu #services {
+	margin-bottom: 32px;
+}
+.menu #portfolio {
+	margin-bottom: 32px;
+}
+.menu #contact {
+	margin-bottom: 32px;
+}
+.background {
+	background: url(../images/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 540px;
+	margin-top: -1px;
+}
+#box {
+	background-color: #f39c12;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	width: 800px;
+	height: 52px;
+	margin: 0 auto;
+	position: relative;
+	top: 250px;
+	line-height: 52px;
+	text-align: center;
+}
+#box p {
+	color: #FFFFFF;
+	font-family: "bebas-neue";
+	font-size: 18px;
+	font-weight: bold;
+}
+#firstpara {
+	font-size: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+.navbar.navbar-default {
+	float: right;
+	margin-top: 30px;
+	background-color: transparent;
+	border: hidden;
+}
+.navbar li:hover {
+	background: #337AB7;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+.nav.navbar-nav {
+	color: #FFFFFF !important;
+	font-size: 20px;
+}
+.dropdown-menu li a {
+	font-size: 20px;
+}
+.nav.navbar-nav .active a {
+	color: #FFFFFF !important;
+	background-color: #337AB7 !important;
+	border-radius: 10px;
+}
+.nav.navbar-nav .active {
+	color: #FFFFFF !important;
+	background-color: #337AB7 !important;
+	border-radius: 10px;
+}
+footer {
+	text-align: center;
+	height: 50px;
+	width: 1024px;
+	background: #009CFF;
+	font-weight: bold;
+	margin: 0 auto;
+	line-height: 50px;
+}
+.content {
+	height: 735px;
+}
+/*contact form*/
+.toptitle {
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #19B4EF;
+	margin-top: 30px;
+}
+label {
+	text-align: left;
+	width: 15%;
+	float: left;
+	padding-right: 0.5em;
+}
+.textbox {
+	width: 70%;
+	padding: 0.5em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: boder-box;
+	box-sizing: border-box;
+}
+input[type=submit] {
+	width: 30%;
+	background-color: #00ACED;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	margin-left: 35%;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color: #19B4EF;
+}
+.img-circle {
+	border-radius: 50%;
+	margin-top: 40px;
+}
+#quote {
+	display: block;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	background-color: #1E73BE;
+	color: white;
+	font-size: 32px;
+}
+#company {
+	font-size: 20px;
+	text-align: center;
+}
+#dara {
+	display: block;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #DD3334;
+	color: white;
+	font-size: 28px;
+}
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+.flip-container, .front, .back {
+	width: 250px;
+	height: 250px;
+}
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+.frontimage {
+	border-radius: 50%;
+}
+#flipdes {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-color: #C3BCBC;
+	text-align: center;
+	display: block;
+	line-height: 250px;
+	color: red;
+}
+h3 img {
+	float: left;
+	padding-right: 10px;
+}
+.pushleft {
+	margin-left: 20px !important;
+	font-weight: bold;
+}
+.shadow {
+	font-family: 'Open Sans', sans-serif;
+	color: #555;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 800;
+	letter-spacing: -3px;
+	text-shadow: #EDEDED 3px 2px 0;
+	position: relative;
+}
+.space {
+	height: 200px;
+}
